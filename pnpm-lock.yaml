@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@byte-creators/config':
+        specifier: ^1.0.0
+        version: 1.0.0(cgvzgehothmkj6a7fuhqrdfjla)
       clsx:
         specifier: ^2.1.1
         version: 2.1.1
@@ -289,6 +292,21 @@ packages:
 
   '@bcoe/v8-coverage@0.2.3':
     resolution: {integrity: sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==}
+
+  '@byte-creators/config@1.0.0':
+    resolution: {integrity: sha512-cGq15F6iRkMs0h/eokSJ+FPUXNpLDwEicDP545OvODo7wUO2ubukcUJD7tSq2vq4YpZEAhUEbAXFRxl2TCiZIg==}
+    peerDependencies:
+      '@it-incubator/eslint-config': ^1.0.3
+      '@it-incubator/prettier-config': ^0.1.2
+      '@it-incubator/stylelint-config': ^2.0.0
+      eslint-import-resolver-typescript: ^3.6.3
+      eslint-plugin-import: ^2.31.0
+      eslint-plugin-jest-dom: ^5.4.0
+      eslint-plugin-storybook: ^0.8.0
+      eslint-plugin-testing-library: ^6.4.0
+      stylelint: ^16.9.0
+      tailwindcss: ^3.4.1
+      typescript: ^5
 
   '@cspotcode/source-map-support@0.8.1':
     resolution: {integrity: sha512-IchNf6dN4tHoMFIn/7OE8LWZ19Y6q/67Bmf6vnGREv8RSbBVb9LPJxEcnwrcwX6ixSvaiGoomAUvu4YSxXrVgw==}
@@ -3458,6 +3476,20 @@ snapshots:
       '@babel/helper-validator-identifier': 7.25.9
 
   '@bcoe/v8-coverage@0.2.3': {}
+
+  '@byte-creators/config@1.0.0(cgvzgehothmkj6a7fuhqrdfjla)':
+    dependencies:
+      '@it-incubator/eslint-config': 1.0.3(@typescript-eslint/eslint-plugin@8.17.0(@typescript-eslint/parser@8.17.0(eslint@8.57.1)(typescript@5.7.2))(eslint@8.57.1)(typescript@5.7.2))(@typescript-eslint/parser@8.17.0(eslint@8.57.1)(typescript@5.7.2))(eslint-config-prettier@9.1.0(eslint@8.57.1))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.7.0(eslint-plugin-import@2.31.0)(eslint@8.57.1))(eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.17.0(eslint@8.57.1)(typescript@5.7.2))(eslint-import-resolver-typescript@3.7.0)(eslint@8.57.1))(eslint-plugin-perfectionist@2.11.0(eslint@8.57.1)(typescript@5.7.2))(eslint-plugin-prettier@5.2.1(eslint-config-prettier@9.1.0(eslint@8.57.1))(eslint@8.57.1)(prettier@3.0.0))(eslint-plugin-react-hooks@4.6.2(eslint@8.57.1))(eslint-plugin-react@7.37.2(eslint@8.57.1))(eslint@8.57.1)
+      '@it-incubator/prettier-config': 0.1.2
+      '@it-incubator/stylelint-config': 2.0.0(stylelint-config-clean-order@6.1.0(stylelint@16.11.0(typescript@5.7.2)))(stylelint-config-standard-scss@14.0.0(postcss@8.4.49)(stylelint@16.11.0(typescript@5.7.2)))(stylelint@16.11.0(typescript@5.7.2))
+      eslint-import-resolver-typescript: 3.7.0(eslint-plugin-import@2.31.0)(eslint@8.57.1)
+      eslint-plugin-import: 2.31.0(@typescript-eslint/parser@8.17.0(eslint@8.57.1)(typescript@5.7.2))(eslint-import-resolver-typescript@3.7.0)(eslint@8.57.1)
+      eslint-plugin-jest-dom: 5.5.0(@testing-library/dom@10.4.0)(eslint@8.57.1)
+      eslint-plugin-storybook: 0.8.0(eslint@8.57.1)(typescript@5.7.2)
+      eslint-plugin-testing-library: 6.5.0(eslint@8.57.1)(typescript@5.7.2)
+      stylelint: 16.11.0(typescript@5.7.2)
+      tailwindcss: 3.4.16(ts-node@10.9.2(@types/node@20.17.9)(typescript@5.7.2))
+      typescript: 5.7.2
 
   '@cspotcode/source-map-support@0.8.1':
     dependencies:
