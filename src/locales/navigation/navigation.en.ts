@@ -1,0 +1,16 @@
+export const navigationTranslationEn = {
+  accountManagement: "Account management",
+  create: "Create",
+  devices: "Devices",
+  favorites: "Favorites",
+  generalInfo: "General information",
+  home: "Home",
+  messenger: "Messenger",
+  myPayments: "My payments",
+  myProfile: "My Profile",
+  paginationOnPage: "on page",
+  paginationShow: "Show",
+  profileSettings: "Profile Settings",
+  search: "Search",
+  statistics: "Statistics",
+};
