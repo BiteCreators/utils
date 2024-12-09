@@ -4,3 +4,4 @@ export { useLoader } from "./useLoader";
 export { useMediaQuery } from "./useMediaQuery";
 export { useShowMore } from "./useShowMore";
 export { useValidationLimit } from "./useValidationLimit";
+export { useTranslation, useScopedTranslation } from "./useTranslation";
