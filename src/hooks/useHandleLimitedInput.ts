@@ -1,29 +1,31 @@
-import React, { useState } from 'react'
+import React, { useState } from "react";
 
-export const useHandleLimitedInput = <T extends HTMLInputElement | HTMLTextAreaElement>({
+export const useHandleLimitedInput = <
+  T extends HTMLInputElement | HTMLTextAreaElement,
+>({
   callback,
-  defaultValue = '',
+  defaultValue = "",
   limit,
   strict,
 }: {
-  callback?: (value: string) => void
-  defaultValue?: string
-  limit: number
-  strict?: boolean
+  callback?: (value: string) => void;
+  defaultValue?: string;
+  limit: number;
+  strict?: boolean;
 }) => {
-  const [limitCorrect, setCorrect] = useState(true)
-  const [value, setValue] = useState(defaultValue)
+  const [limitCorrect, setCorrect] = useState(true);
+  const [value, setValue] = useState(defaultValue);
 
   const handleChange = (e: React.ChangeEvent<T>) => {
     if (e.target.value.length > limit) {
-      setCorrect(false)
+      setCorrect(false);
       if (strict) {
-        return
+        return;
       }
     }
-    setValue(e.target.value)
-    callback?.(e.target.value)
-  }
+    setValue(e.target.value);
+    callback?.(e.target.value);
+  };
 
-  return { handleChange, limitCorrect, setValue, value }
-}
+  return { handleChange, limitCorrect, setValue, value };
+};

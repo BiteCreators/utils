@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc",
     "test": "jest",
-    "lint": "eslint src"
+    "lint": "eslint --fix src/**/*.{tsx,ts,jsx,js} --config ./.eslintrc.cjs --no-error-on-unmatched-pattern"
   },
   "keywords": [],
   "author": "",
@@ -19,11 +19,12 @@
     "url": "https://github.com/BiteCreators/utils"
   },
   "dependencies": {
-    "@byte-creators/config": "^1.0.0",
+    "@byte-creators/config": "^1.0.2",
     "clsx": "^2.1.1",
     "javascript-time-ago": "^2.5.11",
     "next": "14.2.7",
     "nprogress": "^0.2.0",
+    "react": "^18",
     "tailwind-merge": "^2.5.2"
   },
   "devDependencies": {

@@ -1,4 +1,6 @@
 export { cn } from "./cn";
 export { createPluralize } from "./createPluralize";
-export { mergeRefs } from "./mergeRefs";
 export * from "./hooks";
+export { mergeRefs } from "./mergeRefs";
+
+const a = "a";

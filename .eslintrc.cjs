@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ["@byte-creators/config/.eslintrc.cjs"],
+  extends: [require("@byte-creators/config").eslint],
 };

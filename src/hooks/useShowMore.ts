@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState } from "react";
 
 /**
  * @param {string} text - text to transform
@@ -11,31 +11,35 @@ export const useShowMore = ({
   isDefaultCollapsed = true,
   text,
 }: {
-  defaultVisibleLength?: number
-  isDefaultCollapsed?: boolean
-  text: string
+  defaultVisibleLength?: number;
+  isDefaultCollapsed?: boolean;
+  text: string;
 }) => {
   if (defaultVisibleLength < 0) {
-    throw new Error('Default length should not be negative, please provide a correct value')
+    throw new Error(
+      "Default length should not be negative, please provide a correct value",
+    );
   }
-  const collapsable = text.length > defaultVisibleLength
-  const defautlVisible: string = collapsable ? text.slice(0, defaultVisibleLength) + '...' : text
+  const collapsable = text.length > defaultVisibleLength;
+  const defautlVisible: string = collapsable
+    ? text.slice(0, defaultVisibleLength) + "..."
+    : text;
   const [textToShow, setTextToShow] = useState<string>(() =>
-    isDefaultCollapsed ? defautlVisible : text
-  )
-  const [isCollapsed, setIsCollapsed] = useState<boolean>(isDefaultCollapsed)
+    isDefaultCollapsed ? defautlVisible : text,
+  );
+  const [isCollapsed, setIsCollapsed] = useState<boolean>(isDefaultCollapsed);
   const showMore = () => {
-    setTextToShow(text)
-    setIsCollapsed(false)
-  }
+    setTextToShow(text);
+    setIsCollapsed(false);
+  };
   const collapse = () => {
-    setTextToShow(defautlVisible)
-    setIsCollapsed(true)
-  }
+    setTextToShow(defautlVisible);
+    setIsCollapsed(true);
+  };
   const toggleShowMore = () => {
-    setTextToShow(isCollapsed ? text : defautlVisible)
-    setIsCollapsed(prev => !prev)
-  }
+    setTextToShow(isCollapsed ? text : defautlVisible);
+    setIsCollapsed((prev) => !prev);
+  };
 
   return {
     collapsable,
@@ -44,5 +48,5 @@ export const useShowMore = ({
     showMore,
     textToShow,
     toggleShowMore,
-  }
-}
+  };
+};
