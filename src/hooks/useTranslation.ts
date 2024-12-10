@@ -1,5 +1,6 @@
 //TODO: find out why it was "next/compat/router"
 import { useRouter } from "next/router";
+
 import { en, ru } from "../locales";
 
 export const useTranslation = () => {
