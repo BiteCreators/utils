@@ -2,6 +2,7 @@
   "extends": "@byte-creators/config/tsconfig.npm.json",
   "compilerOptions": {
     "declaration": true,
+    "emitDeclarationOnly": true,
     "declarationMap": false,
     "outDir": "dist",
     "rootDir": "src"

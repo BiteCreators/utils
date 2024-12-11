@@ -1,11 +1,12 @@
 {
   "name": "@byte-creators/utils",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "type": "module",
   "scripts": {
-    "build": "tsc",
+    "build": "node ./esbuild.config.cjs",
     "test": "jest",
     "lint": "eslint --fix src/**/*.{tsx,ts,jsx,js} --config ./.eslintrc.cjs --no-error-on-unmatched-pattern"
   },
@@ -45,6 +46,7 @@
     "@typescript-eslint/parser": "^8.15.0",
     "concurrently": "^9.1.0",
     "cross-env": "^7.0.3",
+    "esbuild": "^0.24.0",
     "eslint-import-resolver-typescript": "^3.6.3",
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-jest-dom": "^5.4.0",
