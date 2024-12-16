@@ -1,9 +1,10 @@
 import { renderHook } from "@testing-library/react";
-import { NextRouter, useRouter } from "next/router";
+import { useRouter } from "next/compat/router";
 
 import { useScopedTranslation, useTranslation } from "../useTranslation";
+import { NextRouter } from "next/router";
 
-jest.mock("next/router", () => ({
+jest.mock("next/compat/router", () => ({
   useRouter: jest.fn(),
 }));
 

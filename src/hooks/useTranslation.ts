@@ -1,5 +1,4 @@
-//TODO: find out why it was "next/compat/router"
-import { useRouter } from "next/router";
+import { useRouter } from "next/compat/router";
 
 import { en, ru } from "../locales";
 
