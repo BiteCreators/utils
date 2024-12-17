@@ -5,7 +5,9 @@
     "declarationDir": "dist",
     "outDir": "dist",
     "rootDir": "src",
-    "declarationMap": false
+    "declarationMap": false,
+    "noEmit": true,
+    "incremental": false
   },
   "include": ["src"],
   "exclude": ["node_modules", "dist"]

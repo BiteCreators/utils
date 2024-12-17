@@ -1,11 +1,12 @@
 {
   "name": "@byte-creators/utils",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "description": "",
   "main": "dist/index.js",
+  "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc",
+    "build": "rollup -c --bundleConfigAsCjs",
     "test": "jest",
     "lint": "eslint --fix src/**/*.{tsx,ts,jsx,js} --config ./.eslintrc.cjs --no-error-on-unmatched-pattern"
   },
@@ -22,7 +23,7 @@
   "peerDependencies": {
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.7"
+    "next": "14.2.20"
   },
   "dependencies": {
     "@byte-creators/config": "^1.0.5",
@@ -32,6 +33,15 @@
     "tailwind-merge": "^2.5.2"
   },
   "devDependencies": {
+    "@rollup/plugin-commonjs": "^26.0.1",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "rollup": "^4.18.1",
+    "rollup-plugin-dts": "^6.1.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "tslib": "^2.6.3",
     "react": "^18",
     "next": "14.2.7",
     "@it-incubator/eslint-config": "^1.0.3",
