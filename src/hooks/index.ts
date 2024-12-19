@@ -7,3 +7,4 @@ export { useMediaQuery } from "./useMediaQuery";
 export { useShowMore } from "./useShowMore";
 export { useScopedTranslation, useTranslation } from "./useTranslation";
 export { useValidationLimit } from "./useValidationLimit";
+export { useDebounce } from "./useDebounce";
