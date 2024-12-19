@@ -1,6 +1,6 @@
 import { Crop } from "react-image-crop";
 
-const setCanvasPreview = (
+export const setCanvasPreview = (
   image: HTMLImageElement,
   canvas: HTMLCanvasElement,
   crop: Crop,
@@ -44,5 +44,3 @@ const setCanvasPreview = (
   );
   ctx.restore();
 };
-
-export default setCanvasPreview;
