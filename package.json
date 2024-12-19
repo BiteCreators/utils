@@ -30,6 +30,7 @@
     "clsx": "^2.1.1",
     "javascript-time-ago": "^2.5.11",
     "nprogress": "^0.2.0",
+    "react-image-crop": "11.0.7",
     "tailwind-merge": "^2.5.2"
   },
   "devDependencies": {
@@ -63,7 +64,6 @@
     "jest-fixed-jsdom": "^0.0.9",
     "next": "14.2.7",
     "react": "^18",
-    "react-image-crop": "11.0.7",
     "rollup": "^4.18.1",
     "rollup-plugin-dts": "^6.1.1",
     "rollup-plugin-peer-deps-external": "^2.2.4",
