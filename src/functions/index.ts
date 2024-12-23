@@ -1,0 +1,1 @@
+export {removeParam} from './removeParam'
