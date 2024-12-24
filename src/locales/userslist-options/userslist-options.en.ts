@@ -1,0 +1,16 @@
+export const userslistOptionsEn = {
+    deleteUser: 'Delete user',
+    banUser: "Ban user",
+    unbanUser: 'Unban in the system',
+    moreInfo: 'More information',
+    badBehavior: "Bad behavior",
+    advertisingPlacement: 'Advertising placement',
+    anotherReason: "Another reason",
+    ban: 'ban',
+    unban: 'unban',
+    youSure: 'Are you sure to',
+    thisUser: 'this user',
+    all: 'All',
+    blocked: 'Blocked',
+    notBlocked: 'Not blocked',
+}

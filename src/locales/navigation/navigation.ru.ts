@@ -13,4 +13,7 @@ export const navigationTranslationRu = {
   profileSettings: "Настройки профиля",
   search: "Поиск",
   statistics: "Статистика",
+  usersList: "Список пользователей",
+  paymentsList: "Список платежей",
+  postsList: "Список постов"
 };

@@ -13,4 +13,7 @@ export const navigationTranslationEn = {
   profileSettings: "Profile Settings",
   search: "Search",
   statistics: "Statistics",
+  usersList: "Users list",
+  paymentsList: "Payments list",
+  postsList: "Posts list",
 };
