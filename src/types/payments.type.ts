@@ -1,0 +1,10 @@
+export enum SUBSCRIPTION_TYPES {
+  DAY = "DAY",
+  MONTHLY = "MONTHLY",
+  WEEKLY = "WEEKLY",
+}
+
+export enum PAYMENT_PROVIDERS {
+  PAYPAL = "PAYPAL",
+  STRIPE = "STRIPE",
+}
