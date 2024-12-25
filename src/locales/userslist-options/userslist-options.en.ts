@@ -8,6 +8,7 @@ export const userslistOptionsEn = {
     anotherReason: "Another reason",
     ban: 'ban',
     unban: 'unban',
+    delete: 'delete',
     youSure: 'Are you sure to',
     thisUser: 'this user',
     all: 'All',
