@@ -8,6 +8,7 @@ export const userslistOptionsRu = {
     anotherReason: "Другая причина",
     ban: 'заблокировать',
     unban: 'разблокировать',
+    delete: 'удалить',
     youSure: 'Вы уверены в том что хотите',
     thisUser: 'этого пользователя',
     all: 'Все',
