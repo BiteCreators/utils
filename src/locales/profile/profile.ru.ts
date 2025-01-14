@@ -36,6 +36,7 @@ export const profileTranslationRu: LocaleType["Profile"] = {
   publications: "Публикации",
   saveChangesBtn: "Сохранить изменения",
   selectPhoto: "Выбрать фото",
+  save: "Сохранить",
   selectYourCity: "Выберите город",
   selectYourCountry: "Выберите страну",
   sendMessage: "Отправить сообщение",

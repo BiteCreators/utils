@@ -33,6 +33,7 @@ export const profileTranslationEn = {
   publications: "Publications",
   saveChangesBtn: "Save changes",
   selectPhoto: "Select Photo",
+  save: "Save",
   selectYourCity: "Select your city",
   selectYourCountry: "Select your country",
   sendMessage: "Send Message",
