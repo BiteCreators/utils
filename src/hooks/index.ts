@@ -10,3 +10,4 @@ export { useShowMore } from "./useShowMore";
 export { useTextArea } from "./useTextArea";
 export { useScopedTranslation, useTranslation } from "./useTranslation";
 export { useValidationLimit } from "./useValidationLimit";
+export {useCalculateHeight} from "./useCalculateHeight"
