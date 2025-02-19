@@ -1,4 +1,5 @@
 export { setCanvasPreview } from "./setCanvasPreview";
+export { useCalculateHeight } from "./useCalculateHeight";
 export { useConfirmation } from "./useConfirmaion";
 export { useDebounce } from "./useDebounce";
 export { useGetRelativeTime } from "./useGetRelativeTime";
@@ -10,4 +11,3 @@ export { useShowMore } from "./useShowMore";
 export { useTextArea } from "./useTextArea";
 export { useScopedTranslation, useTranslation } from "./useTranslation";
 export { useValidationLimit } from "./useValidationLimit";
-export {useCalculateHeight} from "./useCalculateHeight"

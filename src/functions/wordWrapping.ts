@@ -1,21 +1,21 @@
 export const wordWrapping = (
-	text: string,
-	maxWordLength: number = 35
+  text: string,
+  maxWordLength: number = 35,
 ): string => {
-	return text
-		.split(' ')
-		.map(word => {
-			if (word.length > maxWordLength) {
-				let result = ''
+  return text
+    .split(" ")
+    .map((word) => {
+      if (word.length > maxWordLength) {
+        let result = "";
 
-				for (let i = 0; i < word.length; i += maxWordLength) {
-					result += word.slice(i, i + maxWordLength) + ' '
-				}
+        for (let i = 0; i < word.length; i += maxWordLength) {
+          result += word.slice(i, i + maxWordLength) + " ";
+        }
 
-				return result.trim()
-			}
+        return result.trim();
+      }
 
-			return word
-		})
-		.join(' ')
-}
+      return word;
+    })
+    .join(" ");
+};
