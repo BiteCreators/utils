@@ -1,6 +1,6 @@
 {
   "name": "@byte-creators/utils",
-  "version": "1.10.1",
+  "version": "1.10.2",
   "description": "smth",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -54,6 +54,7 @@
     "@typescript-eslint/parser": "^8.15.0",
     "concurrently": "^9.1.0",
     "cross-env": "^7.0.3",
+    "eslint": "^9.20.1",
     "eslint-import-resolver-typescript": "^3.6.3",
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-jest-dom": "^5.4.0",
