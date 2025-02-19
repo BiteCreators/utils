@@ -30,6 +30,9 @@ export const profileTranslationRu: LocaleType["Profile"] = {
   },
   firstName: "Имя",
   follow: "Подписаться",
+  modal: {
+    listIsEmpty: 'Ваш список пока пуст. Откройте для себя новых людей и начните общаться!',
+  },
   followers: "Подписчики",
   following: "Подписки",
   lastName: "Фамилия",
