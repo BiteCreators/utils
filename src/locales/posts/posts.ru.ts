@@ -1,6 +1,7 @@
 import { LocaleType } from "../en";
 
 export const postsTranslationsRu: LocaleType["Posts"] = {
+	addComment: "Добавьте комментарий...",
   addPhoto: "Добавить фото",
   addPublicationDesctiption: "Добавить описание поста",
   close: "Закрыть",

@@ -1,4 +1,5 @@
 export const postsTranslationsEn = {
+	addComment: "Add comment...",
   addPhoto: "Add photo",
   addPublicationDesctiption: "Add publication description",
   close: "Close",
