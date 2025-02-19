@@ -1,6 +1,7 @@
 import { LocaleType } from "../en";
 
 export const postsTranslationsRu: LocaleType["Posts"] = {
+	addComment: "Добавьте комментарий...",
   addPhoto: "Добавить фото",
   addPublicationDesctiption: "Добавить описание поста",
   close: "Закрыть",
@@ -16,13 +17,19 @@ export const postsTranslationsRu: LocaleType["Posts"] = {
   doYouWantToCloseEditing:
     "Вы действительно хотите закрыть окно редактирования? Если это сделать изменения не будут сохранены",
   editPost: "Редактировать пост",
+	errors: {
+		failedToLoadComments: "Не удалось загрузить комментарии",
+		failedToLoadPosts: "Не удалось загрузить публикации. Попробуйте позже",
+	},
   filters: "Фильтры",
   follow: "Отслеживать",
   next: "Дальше",
+	noComments: "",
   openDraft: "Открыть черновик",
   publication: "Публикация",
   publish: "Опубликовать",
   saveChanges: "Сохранить изменения",
   selectFromComputer: "Загрузить с устройства",
   unfollow: "Не отслеживать",
+	viewAllComments: "Посмотреть все комментарии",
 };

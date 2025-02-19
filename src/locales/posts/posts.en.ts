@@ -1,4 +1,5 @@
 export const postsTranslationsEn = {
+	addComment: "Add comment...",
   addPhoto: "Add photo",
   addPublicationDesctiption: "Add publication description",
   close: "Close",
@@ -14,13 +15,19 @@ export const postsTranslationsEn = {
   doYouWantToCloseEditing:
     "Do you really want to close the edition of the publication? If you close changes won’t be saved",
   editPost: "Edit post",
+	errors: {
+		failedToLoadComments: "Failed to load comments",
+		failedToLoadPosts: "Failed to load posts. Try again later",
+	},
   filters: "Filters",
   follow: "Follow",
   next: "Next",
+	noComments: "No comments yet",
   openDraft: "Open draft",
   publication: "Publication",
   publish: "Publish",
   saveChanges: "Save changes",
   selectFromComputer: "Select from computer",
   unfollow: "Unfollow",
+	viewAllComments: "View all comments",
 };
