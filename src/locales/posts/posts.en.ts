@@ -10,6 +10,7 @@ export const postsTranslationsEn = {
   cropping: "Cropping",
   deletePost: "Delete post",
   deletePostQuestion: "Are you sure you want to delete this post?",
+	doYouWantToUnfollow: 'Are you sure you want to unfollow from',
   doYouWantToCloseCreation:
     "Do you really want to close the creation of a publication? If you close everything will be deleted",
   doYouWantToCloseEditing:

@@ -12,6 +12,7 @@ export const postsTranslationsRu: LocaleType["Posts"] = {
   cropping: "Редактирование",
   deletePost: "Удалить пост",
   deletePostQuestion: "Вы действительно хотите удалить этот пост?",
+	doYouWantToUnfollow: 'Вы уверены, что хотите отписаться от',
   doYouWantToCloseCreation:
     "Вы действительно хотите закрыть окно создания? Если это сделать изменения не будут сохранены",
   doYouWantToCloseEditing:
