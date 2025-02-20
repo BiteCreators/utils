@@ -12,6 +12,8 @@ export const paymentsTranslationsEn = {
   expireAt: "Expire At",
   modalErrorMessage: "Transaction failed. Please, write to support",
   modalErrorTitle: "Error",
+  modalSuccessMessage: "Payment was successful!",
+  modalSuccessTitle: "Success",
   nextPayment: "Next payment",
   oneDay: " per 1 days",
   oneMonth: " per 1 month",

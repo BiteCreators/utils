@@ -14,6 +14,8 @@ export const paymentsTranslationsRu: LocaleType["Payments"] = {
   expireAt: "Срок действия до",
   modalErrorMessage: "Сбой транзакции. Пожалуйста, обратитесь в службу поддержки",
   modalErrorTitle: "Ошибка",
+  modalSuccessMessage: "Платеж принят!",
+  modalSuccessTitle: "Успешная оплата",
   nextPayment: "Следующий платеж",
   oneDay: " за 1 день",
   oneMonth: " за 1 месяц",
