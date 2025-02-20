@@ -1,12 +1,18 @@
 export const paymentsTranslationsEn = {
   accountType: "Account Type:",
+  autoRenewal: "Auto-Renewal",
   business: "Business",
+  currentSubscription: "Current Subscription:",
   dateOfPayment: "Date of Payment",
   endDateOfSubscription: "End date of subscription",
   errors: {
+    cancelled: "Automatic subscription renewal has been cancelled",
     test: "test",
-    cancelled: "Automatic subscription renewal has been cancelled"
   },
+  expireAt: "Expire At",
+  modalErrorMessage: "Transaction failed. Please, write to support",
+  modalErrorTitle: "Error",
+  nextPayment: "Next payment",
   oneDay: " per 1 days",
   oneMonth: " per 1 month",
   paymentType: "Payment Type",
@@ -15,8 +21,4 @@ export const paymentsTranslationsEn = {
   sevenDays: " per 7 day",
   subscriptionType: "Subscription Type",
   yourSubscriptionCosts: "Your subscription costs:",
-  expireAt: "Expire At",
-  nextPayment: "Next payment",
-  autoRenewal: "Auto-Renewal",
-  currentSubscription: "Current Subscription:"
 };
