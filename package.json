@@ -1,6 +1,6 @@
 {
 	"name": "@byte-creators/utils",
-	"version": "1.10.5",
+	"version": "1.10.6",
 	"description": "smth",
 	"main": "dist/index.js",
 	"module": "dist/index.mjs",
