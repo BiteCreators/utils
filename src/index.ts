@@ -3,4 +3,5 @@ export { createPluralize } from "./createPluralize";
 export * from "./hooks";
 export * from "./functions";
 export { mergeRefs } from "./mergeRefs";
-export * from "./types"
+export * from "./types";
+export type { LocaleType } from "./locales";
