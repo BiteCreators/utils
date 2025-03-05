@@ -5,7 +5,7 @@ let socket: Socket
 /**
  * @returns socket io instance
  */
-export const getSocket = (wsUrl: string): Socket => {
+export const getSocket = (): Socket => {
 	if (!socket) {
 		const queryParams = {
 			query: {
@@ -13,7 +13,7 @@ export const getSocket = (wsUrl: string): Socket => {
 			},
 		}
 
-		socket = io(wsUrl || '', queryParams)
+		socket = io(process.env.NEXT_PUBLIC_WS_API_URL || '', queryParams)
 	}
 
 	if (socket.disconnected) {
