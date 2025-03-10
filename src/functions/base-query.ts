@@ -1,4 +1,4 @@
-import { Action } from '@reduxjs/toolkit'
+import { PayloadAction } from '@reduxjs/toolkit'
 import {
 	BaseQueryFn,
 	FetchArgs,
@@ -40,7 +40,7 @@ const baseQuery = fetchBaseQuery({
 
 export const baseQueryWithReauth =
 	(
-		action: Action
+		action: PayloadAction
 	): BaseQueryFn<FetchArgs | string, unknown, FetchBaseQueryError> =>
 	async (args, api, extraOptions) => {
 		await mutex.waitForUnlock()
