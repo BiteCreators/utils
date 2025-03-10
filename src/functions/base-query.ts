@@ -40,7 +40,7 @@ const baseQuery = fetchBaseQuery({
 
 export const baseQueryWithReauth =
 	(
-		action: PayloadAction
+		action?: PayloadAction
 	): BaseQueryFn<FetchArgs | string, unknown, FetchBaseQueryError> =>
 	async (args, api, extraOptions) => {
 		await mutex.waitForUnlock()
@@ -63,7 +63,9 @@ export const baseQueryWithReauth =
 						document.cookie = `accessToken=${token};max-age=2678400;secure;path=/;samesite=lax`
 						result = await baseQuery(args, api, extraOptions)
 					} else {
-						api.dispatch(action)
+						if (action) {
+							api.dispatch(action)
+						}
 						document.cookie =
 							'accessToken=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT'
 					}
