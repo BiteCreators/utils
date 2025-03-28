@@ -12,6 +12,7 @@ import { privacyPolicyTranslationEn } from "./privacy-policy";
 import { profileTranslationEn } from "./profile";
 import { termsServiceTranslationEn } from "./terms-service";
 import { userslistOptionsEn } from "./userslist-options";
+import {personalizationTranslationEn} from "./personalization";
 
 export const en = {
   AdminPayments: adminPaymentsEn,
@@ -28,5 +29,6 @@ export const en = {
   Profile: profileTranslationEn,
   TermsService: termsServiceTranslationEn,
   UserslistOptions: userslistOptionsEn,
+  Personalization: personalizationTranslationEn,
 };
 export type LocaleType = typeof en;
