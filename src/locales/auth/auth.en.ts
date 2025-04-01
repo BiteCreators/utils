@@ -39,6 +39,7 @@ export const authTranslationEn = {
     usernameTakenError: "User with this username already registered",
     usernameTooLongError: "Maximum number of characters 30",
     usernameTooShortError: "Minimum number of characters 6",
+    cookiesDisabled: 'Please enable cookies in browser settings to log in'
   },
 
   forgotPassword: "Forgot Password",

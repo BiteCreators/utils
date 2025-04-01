@@ -41,6 +41,7 @@ export const authTranslationRu = {
     usernameTakenError: "Пользователь с таким именем уже зарегистрирован",
     usernameTooLongError: "Максимальная длина имени — 30 символов",
     usernameTooShortError: "Минимальная длина имени — 6 символов",
+    cookiesDisabled: 'Для входа на сайт необходимо разрешить использование файлов cookie в настройках вашего браузера'
   },
   forgotPassword: "Забыли пароль?",
 
